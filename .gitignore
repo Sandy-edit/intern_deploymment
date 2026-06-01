@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+models/__pycache__/
+models/temp/
+*.pyc
+.DS_Store
+.vscode/
+
+# Ignore all raw training plant disease folders except the test images gallery
+plant_disease/*
+!plant_disease/test/
