@@ -1,6 +1,6 @@
-streamlit
-pandas
-numpy
-scikit-learn
-tensorflow
-pillow
+streamlit==1.58.0
+pandas==3.0.3
+numpy==1.26.4
+scikit-learn==1.8.0
+tensorflow-cpu==2.16.1
+pillow==12.2.0
