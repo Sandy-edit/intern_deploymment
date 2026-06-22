@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 7860
 
 # Run Streamlit with optimized settings
-CMD ["streamlit", "run", "app.py", "--server.port=7860", "--server.address=0.0.0.0", "--logger.level=error"]
+CMD ["streamlit", "run", "models/app.py", "--server.port=7860", "--server.address=0.0.0.0", "--logger.level=error"]
